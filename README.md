@@ -1,8 +1,11 @@
 # git-cheatsheet-commands
 Git commands to make you more productive
 
+First, install git for windows or mac 
+https://git-scm.com/downloads
 
-# Install git
+
+# Setting up
 
 Setting up username and email
 ```
@@ -11,7 +14,7 @@ git config --global user.email "email@gmail.com"
 git config --global --list
 ```
 
-Initialize git 
+Initialize git, in your project directory run: 
 
 ```
 git init 
