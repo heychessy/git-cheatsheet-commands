@@ -131,3 +131,11 @@ You can see all branches created by using
 git branch
 ```
 
+# Merging to a local branch
+Merging localbranchB on to localbranchA
+
+```
+git checkout <localbranchA>
+
+git merge <localbranchB>
+```
