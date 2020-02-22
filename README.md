@@ -139,3 +139,41 @@ git checkout <localbranchA>
 
 git merge <localbranchB>
 ```
+
+Merging only file changes without commit history
+```
+git merge --squash <localBranchB>
+```
+
+
+# Stashing
+saving changes in stash 
+```
+git stash list
+git stash 
+```
+applying changes from stash
+```
+git stash apply stash@{0}
+```
+or
+```
+git stash pop
+```
+dropping stash
+```
+git stash drop
+```
+clearing the stash
+```
+git stash clear
+```
+
+# Rebase vs Merge 
+https://www.youtube.com/watch?v=CRlGDDprdOQ
+
+# Cherry pick 
+allows to pick a particular commit using the hash, switch to the brach in which you want to apply the commit and then 
+```
+git cherry-pick <hash>
+```
